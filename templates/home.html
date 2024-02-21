@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="icon" href="{% static 'images/home.png' %}">
+    <style>
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        h1{
+            color: azure;
+            background-color: rosybrown;
+            height: 80px;
+            text-align: center;
+            font-size: 40px;
+        
+        }
+        h1:hover{
+            background-color: darkolivegreen;
+        }
+        
+    </style>
+</head>
+<body>
+<h1>Homepage</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, libero, repellendus. Ad asperiores dicta doloribus labore maxime natus necessitatibus, odit quos sed tempore? Ad aperiam enim inventore nemo officiis, quidem?</span><span>Aliquid animi aspernatur aut autem commodi consectetur corporis cumque dolor doloribus est facere id in iste laboriosam magnam neque nobis optio placeat praesentium quidem, repellendus tempora unde ut vero voluptas?</span></p>
+<img src="{% static 'images/PG4.jpg' %}" alt="">
+<img src="{% static 'images/PG2.jpg' %}" alt="">
+<img src="{% static 'images/PG3.jpg' %}" alt="">
+<img src="{% static 'images/PG.jpg' %}" alt="">
+<br><br>
+<h1>Payment</h1>
+<p class="paragraph2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eligendi enim ipsam itaque quod sunt ullam. Alias, at eius ex facere fugit harum minima modi molestiae molestias, odio provident tempore!</span><span>Asperiores commodi dignissimos eaque eos facilis id incidunt ipsa laborum neque nisi, numquam placeat quasi quibusdam sed vero? Recusandae similique, veritatis. A consectetur dolorem nihil, nostrum reiciendis rem veritatis! Natus.</span><span>A adipisci animi atque beatae cupiditate, dignissimos eius excepturi explicabo fuga fugiat in inventore laboriosam maxime necessitatibus, neque odio omnis perspiciatis porro praesentium quaerat qui reiciendis repellat sapiente similique sit.</span></p>
+<img id="image" src="{% static 'images/car3.jpg' %}" alt="">
+
+
+</body>
+</html>
